@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <meta name="author" content="Hubert Zajac">
+</head>
+<body>
+
+<form action="contactus.php" method="post">
+
+    <table cellpadding="12">
+        <tbody>
+            <tr>
+                <td>Your Email:</td>
+                <td><input type="email" name="customer_email" required></td>
+            </tr>
+            <tr>
+                <td>Your Message:</td>
+                <td><textarea name="message" required title=""></textarea></td>
+            </tr>
+            <tr>
+                <td>Do you want a reply?</td>
+                <td><input type="checkbox" name="reply_wanted"></td>
+            </tr>
+            <tr>
+                <td>Send Message</td>
+                <td><input type="submit" name="submit" value="Send Message"></td>
+            </tr>
+        </tbody>
+    </table>
+
+</form>
+
+</body>
+</html>
